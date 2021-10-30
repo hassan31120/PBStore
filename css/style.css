@@ -1,0 +1,29 @@
+body{
+    font-family: 'Rubik', sans-serif;
+}
+
+header{
+    min-height: 100vh;
+    background-image: linear-gradient(rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.3)), url(../images/wallpaper.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar{
+    opacity: 0.8;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+} 
+
+.suit{
+ transform: scale(0.8);
+ transition: 2s;
+}
+
+.suit:hover{
+    transform: scale(1);
+}   
+
+
